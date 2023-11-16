@@ -16,7 +16,7 @@ pipeline {
         always {
             echo "I Will always say Hello Agai!"
         }
-        succes{
+        succes {
             echo "yay, secces"
         }
         failure {
@@ -26,5 +26,5 @@ pipeline {
             echo "don't care succes or error"
         }
     }
-    
+
 }
