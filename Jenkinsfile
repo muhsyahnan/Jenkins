@@ -11,20 +11,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        always {
-            echo "I Will always say Hello Agai!"
-        }
-        success {
-            echo "yay, secces"
-        }
-        failure {
-            echo "oh o, failure"
-        }
-        cleanup {
-            echo "don't care succes or error"
-        }
-    }
-
 }
